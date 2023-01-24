@@ -49,25 +49,27 @@ hr{
         display: flex;
         flex-direction: column-reverse;
         /* height: 100%; */
-        margin-left: auto;
-        margin-right: auto;
-        width:50%;
+        /* margin-left: 25%;
+        margin-right: 25%; */
+        width:93%;
+        
+        
     }
-
+    
     article{
         
         border: 1px solid #707BAB;
         border-radius: 10px;
-        
-        
     }
-    nav{
-        /* margin: 10px; */
-        border: 1px solid #707BAB;
-        border-radius: 20px;
-        /* padding: 10px; */
-        width:fit-content 1;
-
+    nav.landscape{
+        display: none;
+    }
+    nav.mobile{
+        font-size: small;
+        width: 100%;
+        color: #707BAB;
+        border: 0px;
+        font-size:medium;
     }
 }
 
@@ -91,7 +93,6 @@ nav{
     text-align: center;
 }
 img.tux{
-    width: 150px;   
     height: 150px;
     height: fit-content;
 }
@@ -118,3 +119,7 @@ b{
     color: #FFFF;
     
 }
+@media  (orientation: landscape){
+nav.mobile{
+    display: none;
+}}
