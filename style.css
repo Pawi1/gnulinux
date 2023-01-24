@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Moon+Dance&family=Rowdies&display=swap');
+body{
+    background-color: #485696;
+    font-family: 'Lato', sans-serif;
+    color: #E7E7E7;
+    
+}
 .logo{
     text-align: center;
+    text-shadow: 2px 2px 5px #707BAB;
 }
 a.logo{
     font-family: 'Moon Dance', cursive;
@@ -10,12 +17,6 @@ a.logo{
     text-decoration: none;
 }
 
-body{
-    background-color: #485696;
-    font-family: 'Lato', sans-serif;
-    color: #E7E7E7;
-    
-}
 header{
     text-align: center;
     font-size: 15px;
@@ -30,7 +31,9 @@ a:active{
 }
 hr{
     color: #707BAB;
-    size: 1px;
+    background-color: #707BAB;
+    height: 1px;
+    border-width: 0px;
 }
 /*  */
 #mapa{
@@ -39,6 +42,36 @@ hr{
     flex-direction: row;
     height: 100%;
 }
+@media  (orientation: portrait)
+{
+    #mapa{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+        /* height: 100%; */
+        margin-left: auto;
+        margin-right: auto;
+        width:50%;
+    }
+
+    article{
+        
+        border: 1px solid #707BAB;
+        border-radius: 10px;
+        
+        
+    }
+    nav{
+        /* margin: 10px; */
+        border: 1px solid #707BAB;
+        border-radius: 20px;
+        /* padding: 10px; */
+        width:fit-content 1;
+
+    }
+}
+
+
 article{
     margin: 10px;
     border: 1px solid #707BAB;
@@ -59,14 +92,29 @@ nav{
 }
 img.tux{
     width: 150px;   
-    /* width: 10%; */
+    height: 150px;
     height: fit-content;
 }
 img.logo{
     width: 100px;
+    height: 100px;
+    text-shadow: 2px 2px 5px #707BAB;
 }
 h3{
     text-align: center;
     color: #93a1e0;
+    font-size: xx-large;
 }
 
+img.a{
+    width: 150px;
+    height: 225px;
+    float: right;
+    margin: 10px;
+    border: 1px solid #707BAB;
+    border-radius: 15px;
+}
+b{
+    color: #FFFF;
+    
+}
