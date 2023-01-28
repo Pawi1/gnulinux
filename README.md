@@ -26,6 +26,7 @@ image - Autorstwa gg3po, Iwan Gabovitch - Tux Flat SVG, based on File:NewTux.svg
 
 text - https://pl.wikipedia.org/wiki/Linux
 
+## 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
