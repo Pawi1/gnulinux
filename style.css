@@ -14,7 +14,7 @@ a.logo{
     font-family: 'Moon Dance', cursive;
     font-size: 65px;
     text-shadow: 2px 2px 5px #707BAB;
-    color: #E7E7E7;
+    color: #E7E7E7 !important;
     text-decoration: none;
 }
 
@@ -27,11 +27,14 @@ a{
   text-decoration: none;   
   color: #E7E7E7;   
 }
-a:active{
+a:hover{
     color: #BD6161;
 }
 hr{
     color: #707BAB;
+    background-color: #707BAB;
+    height: 1px;
+    border-width: 0px;
 }
 /*  */
 @media  (orientation: landscape){
