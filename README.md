@@ -5,18 +5,8 @@
     ╚██████╔╝██║ ╚████║╚██████╔╝██╔╝   ███████╗██║██║ ╚████║╚██████╔╝██╔╝ ██╗                        
      ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚═╝    ╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝                        
                        
-## Prawa Autorskie: 
-
-Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
-
-This work is licensed under a
-[Creative Commons Attribution 4.0 International License][cc-by].
-
-[![CC BY 4.0][cc-by-image]][cc-by]
-
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
-[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+# Prawa Autorskie: 
+### HTML i CSS strony: Paweł Rutkowski, CC BY 4.0
 
 ## INNE: 
 
@@ -35,3 +25,14 @@ text -  https://pl.wikipedia.org/wiki/Linus_Torvalds
 image - Autorstwa gg3po, Iwan Gabovitch - Tux Flat SVG, based on File:NewTux.svg by gg3po which is based on File:Tux.png by Larry Ewing, GPL,https://commons.wikimedia.org/w/index.php?curid=48629023
 
 text - https://pl.wikipedia.org/wiki/Linux
+
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
