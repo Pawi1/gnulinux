@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Moon+Dance&family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 body{
     background-color: #485696;
     font-family: 'Lato', sans-serif;
     color: #E7E7E7;
-    
+
 }
 .logo{
     text-align: center;
@@ -31,58 +32,81 @@ a:active{
 }
 hr{
     color: #707BAB;
-    background-color: #707BAB;
-    height: 1px;
-    border-width: 0px;
 }
 /*  */
-#mapa{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    height: 100%;
+@media  (orientation: landscape){
+    nav.mobile{
+        display: none;
+    }
+    
+    #mapa{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        padding-bottom: calc(1rem + 1vh);
+    }
+    article{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        border: 1px solid #707BAB;
+        padding: 10px;
+        border-radius: 10px;
+        width: 100%;
+    }
+    nav.landscape{
+        height: min-content;
+    }
+    img.tux{
+        height: fit-content;
+        margin: 0px;
+    }
+
+
 }
-@media  (orientation: portrait)
+
+
+
+@media  (orientation: portrait) 
 {
     #mapa{
         margin-top: 20px;
         display: flex;
         flex-direction: column-reverse;
-        /* height: 100%; */
-        /* margin-left: 25%;
-        margin-right: 25%; */
-        width:93%;
-        
-        
     }
+    
+    img.tux{    
+        height: 15%;    
+        width: 15%;    
+        }
+    
     
     article{
         
         border: 1px solid #707BAB;
         border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 2rem;   
     }
     nav.landscape{
         display: none;
     }
     nav.mobile{
         font-size: small;
-        width: 100%;
         color: #707BAB;
         border: 0px;
         font-size:medium;
     }
+    img.tux{
+        margin-left: 33%;
+        margin-right: 33%;
+        width: 33%;
+}
 }
 
 
-article{
-    margin: 10px;
-    border: 1px solid #707BAB;
-    border-radius: 10px;
-    padding: 10px;
-    width: 100%;
-    height:fit-content 1;
-    
-}
 nav{
     margin: 10px;
     border: 1px solid #707BAB;
@@ -92,10 +116,7 @@ nav{
     height: fit-content;
     text-align: center;
 }
-img.tux{
-    height: 150px;
-    height: fit-content;
-}
+
 img.logo{
     width: 100px;
     height: 100px;
@@ -104,7 +125,7 @@ img.logo{
 h3{
     text-align: center;
     color: #93a1e0;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 img.a{
@@ -119,7 +140,17 @@ b{
     color: #FFFF;
     
 }
-@media  (orientation: landscape){
-nav.mobile{
-    display: none;
-}}
+  #kont {
+    position: relative;
+    min-height: calc(100vh - 1rem);
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+  }
+LEFT{
+    font-family: 'Noto Sans JP', sans-serif;
+}
