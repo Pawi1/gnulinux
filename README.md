@@ -6,6 +6,7 @@
      ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚═╝    ╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝                        
                        
 ## Prawa Autorskie:
+Paweł Rutkowski 2022 - 2023
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
