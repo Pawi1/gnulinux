@@ -164,3 +164,6 @@ b{
 LEFT{
     font-family: 'Noto Sans JP', sans-serif;
 }
+a.domyslny{
+    color: (internal value); text-decoration: underline;cursor: auto; 
+}

@@ -1,4 +1,5 @@
-# Strona gotowa w: Około 45%
+# Strona gotowa w: 25%
+
      ██████╗ ███╗   ██╗██╗   ██╗    ██╗██╗     ██╗███╗   ██╗██╗   ██╗██╗  ██╗                         
     ██╔════╝ ████╗  ██║██║   ██║   ██╔╝██║     ██║████╗  ██║██║   ██║╚██╗██╔╝                        
     ██║  ███╗██╔██╗ ██║██║   ██║  ██╔╝ ██║     ██║██╔██╗ ██║██║   ██║ ╚███╔╝                         
@@ -26,6 +27,18 @@ text -  https://pl.wikipedia.org/wiki/Linus_Torvalds
 image - Autorstwa gg3po, Iwan Gabovitch - Tux Flat SVG, based on File:NewTux.svg by gg3po which is based on File:Tux.png by Larry Ewing, GPL,https://commons.wikimedia.org/w/index.php?curid=48629023
 
 text - https://pl.wikipedia.org/wiki/Linux
+
+### linuxagnu.htm:
+text - https://pl.wikipedia.org/wiki/Linux
+
+### winalinux.htm:
+image - https://www.psychz.net/client/blog/en/in-comparison-windows-vs-linux.html#
+
+text - ChatGPT
+
+### open.htm:
+text - ChatGPT
+
 
 ## 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
