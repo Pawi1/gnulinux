@@ -139,6 +139,13 @@ img.a{
     border: 1px solid #707BAB;
     border-radius: 15px;
 }
+img.b{
+    margin: 10px;
+    border: 1px solid #707BAB;
+    border-radius: 15px;
+    width: 50%;
+    float: right;
+}
 b{
     color: #FFFF;
     

@@ -32,3 +32,8 @@ o_linuxie.html :
 image - Autorstwa gg3po, Iwan Gabovitch - Tux Flat SVG, based on File:NewTux.svg by gg3po which is based on File:Tux.png by Larry Ewing, GPL, https://commons.wikimedia.org/w/index.php?curid=48629023
 text - https://pl.wikipedia.org/wiki/Linux
 
+linuxagnu.htm:
+text - https://pl.wikipedia.org/wiki/Linux
+
+winalinux.htm:
+image - https://www.psychz.net/client/blog/en/in-comparison-windows-vs-linux.html#
