@@ -167,3 +167,9 @@ LEFT{
 a.domyslny{
     color: (internal value); text-decoration: underline;cursor: auto; 
 }
+.terminal{
+   background-color: black;
+}
+.przyklad{
+    font-size: 14px;
+}
