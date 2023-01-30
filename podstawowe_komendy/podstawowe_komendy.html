@@ -16,37 +16,57 @@
 <header>|
     <a href="/o_linuxie/o_linuxie.html" class="header">O linuxie</a> |
     <a href="/zastosowanie/zastosowanie.html" class="header">Zastosowanie Linuxa</a> |
-    <a href="/podstawowe_komendy/podstawowe_komendy.html" class="header">Podstawowe komendy</a> |
+    <a href="/podstawowe_komendy/podstawowe_komendy.html" class="header"> Komendy Linuxa</a> |
     <a href="/dystrybucje/dystrybucje.html" class="header">Dystrybucje</a> | 
     <hr>
 </header>
-  
-        <div id="mapa">
-            <article>
-               
-                <h4 style="color:#707BAB; text-align: center;">Podstawowe:</h4><hr>
-                    <div id="cd">
-                    &emsp;<b style="font-size: 20px;">-&emsp;cd</b>&emsp; Służy do zmiany katalogu w którym aktualnie jesteśmy
+  <div id="mapa">
+        <article>
+            <div id="podstawowe">
+                <h4 style="color:#707BAB; text-align: center;">Podstawowe:</h4><hr><br><br>
+                <div id="sudo">
+                    &emsp;<b style="font-size: 20px;">-&emsp;sudo</b>&emsp; Wykonuje zadanie z uprawnieniami roota (odpowiednik administratora w windowsie)
                     <br><br>
                         <div class="przyklad">
                         <b>Przykład:</b> 
-                        <div class="terminal"><h5>&emsp;&emsp;$ cd Pobrane</h5></div> 
-                        <h5>Operacja zmienia nasze aktualne położenie na ../Pobrane</h5>
+                        <div class="terminal"><h5>&emsp;&emsp;$ sudo apt update</h5></div> 
+                        <h5>Operacja aktualizuje liste reposytoriów i ich pakietów (distro oparte na debianie i pochodnych)</h5>
+                        <br><b>Przykład 2:</b>
+                        <div class="terminal"><h5>&emsp;&emsp;$ sudo bash</h5><h5>&emsp;&emsp;#</h5></div> 
+                        <h5>Uruchamia bash (odpowiednik cmd w linuxie) z uprawnieniami administratora (będziesz zalogowany jako root ($ = zwykły użytkownik # = root))</h5>
                         </div>
-                    </div>
+                </div>
+                <br><br>
+                <div id="pwd">
+                    &emsp;<b style="font-size: 20px;">-&emsp;pwd</b>&emsp; Wyświetla ścieżke naszego katalogu w jakim aktualnie się znajdujemy (od 'print working directory')
+                    <br><br>
+                        <div class="przyklad">
+                        <b>Przykład:</b> 
+                        <div class="terminal"><h5>&emsp;&emsp;$ pwd</h5><h5>&emsp;&emsp;/home/user</h5></div> 
+                        </div>
+                </div>
+                <br><br>
+                <div id="cd">
+                    &emsp;<b style="font-size: 20px;">-&emsp;cd</b>&emsp; Komenda umożliwia zmiane katalogu (od 'change directory')
+                    <br><br>
+                    <div class="przyklad">
+                        <b>Przykład:</b> 
+                        <div class="terminal"><h5>&emsp;&emsp;$ cd [ścieżka katalogua albo nazwa katalogu]</h5></div> 
+                        </div>
+                </div>
+            </div>
 
 
-
-            </article>
+        </article>
             <nav class="landscape">
                 <br>
-                <a href="#cd" class="nav">cd</a> <br><hr><br>
+                <a href="#podstawowe" class="nav">Podstawowe</a> <br><hr><br>
                 <a href="" class="nav">...</a> <br><hr><br>
                 <a href="" class="nav">...</a> <br><hr><br>
                 <a href="" class="nav">...</a>  
             </nav>
             <nav class="mobile">
-              <h5><hr>| <a href="#cd" class="nav">cd</a> | <a href="" class="nav">...</a> | <a href="" class="nav">....</a> | <br>
+              <h5><hr>| <a href="#podstawowe" class="nav">Podstawowe</a> | <a href="" class="nav">...</a> | <a href="" class="nav">....</a> | <br>
                  | <a href="" class="nav">...</a> |<hr></h5>  
             </nav>
         </div>

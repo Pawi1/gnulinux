@@ -172,4 +172,7 @@ a.domyslny{
 }
 .przyklad{
     font-size: 14px;
+    border: 1px solid #707BAB;
+    border-radius: 15px;
+    padding: 10px;
 }
