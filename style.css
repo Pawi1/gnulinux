@@ -58,9 +58,14 @@ hr{
         padding: 10px;
         border-radius: 10px;
         width: 100%;
+        
     }
     nav.landscape{
         height: min-content;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        
     }
     img.tux{
         height: fit-content;
