@@ -34,11 +34,6 @@ text - https://pl.wikipedia.org/wiki/Linux
 ### winalinux.htm:
 image - https://www.psychz.net/client/blog/en/in-comparison-windows-vs-linux.html#
 
-text - ChatGPT
-
-### open.htm:
-text - ChatGPT
-
 
 ## 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
