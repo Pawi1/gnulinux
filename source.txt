@@ -15,7 +15,11 @@
         888    d88P     888 888P     Y888 8888888 88888888 Y8P  "Y8888P88 8888888     888     888    888  "Y88888P"  8888888P"  Y8P 8888888 "Y88888P"  
                                                                                                                                                                                                                                                                                                                                                      
 
-                                                                                                 
+                                                               ###### Informacje Wstępne ######                                 
+Po co ta witryna powstała? -> Stworzyłem tą witryne, ponieważ to jest/było moją pracą klasową (PSI 1 klasa tech. programisty) -> Nie traktuj witryny na serio ( w sensie zawarte tutaj informacje mogą być nieobiektywne, nieprofesjonalne, nierzetelne itd. ( NIE JESTEM EKSPERTEM ) )  
+Znalazłem niezgodność/literówke itp. Czy mogę coś z tym zrobić? -> https://github.com/Pawi1/Pawi1.github.io/pulls <- Tu napisz                                                                
+                                                                
+                                                                
                                                                 ###### Prawa Autorskie: ######
 HTML i CSS strony : Paweł Rutkowski, CC BY 4.0  
 
