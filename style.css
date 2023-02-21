@@ -202,7 +202,10 @@ a.domyslny{
     text-align:center;
     float:none;
 }
-img
 .hide{
     visibility: hidden;
+}
+img.c{
+    border: 1px solid #707BAB;
+    border-radius: 15px;
 }
