@@ -187,9 +187,22 @@ a.domyslny{
 .green{
     color: rgb(0, 255, 0);
 }
-.c{
-    text-align: center;
+
+#minimapa{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction:row;
 }
-.distro{
-    padding-bottom: 350px;
+.artykul{
+    border: 1px solid #707BAB;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    text-align:center;
+    float:none;
+}
+img
+.hide{
+    visibility: hidden;
 }
