@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Moon+Dance&family=Rowdies&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #485696;
     font-family: 'Lato', sans-serif;
@@ -71,9 +74,17 @@ hr{
         height: fit-content;
         margin: 0px;
     }
+    #minimapa{
+        flex-direction: row;
+    }
+    .artykul{
+        width: calc(50vw/3);
+        max-width: calc(50vw/3);
+        height: 25vh;
+        max-height: 25vh;
+    }
+}    
 
-
-}
 
 
 
@@ -106,12 +117,23 @@ hr{
         color: #707BAB;
         border: 0px;
         font-size:medium;
+        margin-left: 30%;
+        margin-right: 30%;
     }
     img.tux{
         margin-left: 33%;
         margin-right: 33%;
         width: 33%;
-}
+    }
+    .artykul{
+        height: 25vh;
+        max-height: 25vh;
+        width: 35vw;
+        max-width: 35vw;
+    }
+    #minimapa{
+        flex-direction: column;
+    }
 }
 
 
@@ -188,24 +210,31 @@ a.domyslny{
     color: rgb(0, 255, 0);
 }
 
-#minimapa{
-    margin-left: 25%;
-    margin-right: 25%;
-    display: flex;
-    flex-direction:row;
-}
-.artykul{
-    border: 1px solid #707BAB;
-    border-radius: 15px;
-    padding: 15px;
-    margin: 15px;
-    text-align:center;
-    float:none;
-}
+
+
 .hide{
     visibility: hidden;
 }
 img.c{
     border: 1px solid #707BAB;
     border-radius: 15px;
+    width: 40%;
 }
+
+#minimapa{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.artykul{
+    border: 1px solid #707BAB;
+    border-radius: 15px;
+    padding: 50px;
+    padding-bottom: 100px;
+    margin: 25px;
+    text-align:center;
+    display: inline-block;
+
+}
+

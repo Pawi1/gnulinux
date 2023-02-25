@@ -41,3 +41,28 @@ text - https://pl.wikipedia.org/wiki/Linux
 
 winalinux.htm:
 image - https://www.psychz.net/client/blog/en/in-comparison-windows-vs-linux.html#
+
+poradniki.html:
+image - https://www.benchmark.pl/testy_i_recenzje/linux-20-porad-dla-poczatkujacych.html
+
+dystrybucje.html:
+image - Autorstwa Andreas Lundqvist (initially), Muhammad Herdiansyah (continued), Fabio Loli (continued) - http://futurist.se/gldt/ (initially), https://github.com/konimex/linuxtimeline (continued), https://github.com/FabioLolix/LinuxTimeline (continued), GFDL 1.3, https://commons.wikimedia.org/w/index.php?curid=2556373
+text - https://pl.wikipedia.org/wiki/Dystrybucja_Linuksa
+
+debian.htm:
+text - https://linux.fandom.com/pl/wiki/Debian
+       https://pl.wikipedia.org/wiki/Ubuntu
+       https://pl.wikipedia.org/wiki/Linux_Mint
+
+arch.htm:
+text - https://pl.wikipedia.org/wiki/Arch_Linux
+       https://pl.wikipedia.org/wiki/Manjaro_Linux
+       https://pl.wikipedia.org/wiki/EndeavourOS
+
+redhat.htm:
+text - https://pl.wikipedia.org/wiki/Fedora_(dystrybucja_Linuksa)
+       https://pl.wikipedia.org/wiki/Red_Hat_Enterprise_Linux
+
+inne.htm:
+text - https://pl.wikipedia.org/wiki/Puppy_Linux
+       https://pl.wikipedia.org/wiki/Clonezilla
