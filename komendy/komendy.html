@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <meta name="theme-color" content="#485696"/>
+    <meta name="description" content="Strona o linuxie: Podstawowe Komendy">
+    <link rel="icon" type="image/x-icon" href="/obrazy/logo.png">
+    <title>Komendy Linuxa - pawil.github.io</title>
+</head>
+<body>
+    <div id="kont">
+        <div class="logo"> <a href="/index.html" class="logo">Gnu/Linux<img class="logo" src="/obrazy/tuxcb.png"> </a></div>
+<header>|
+    <a href="/o_linuxie/o_linuxie.html" class="header">O linuxie</a> |
+    <a href="/poradniki/poradniki.html" class="header">Poradniki do Linuxa</a> |
+    <a href="/komendy/komendy.html" class="header"> Komendy Linuxa</a> |
+    <a href="/dystrybucje/dystrybucje.html" class="header">Dystrybucje</a> | 
+    <hr>
+</header>
+  <div id="mapa">
+        <article>
+            <h3>Lista komend linuxowych:</h3> <hr>
+            <div id="podstawowe">
+                <br>
+                <h4 style="color:#707BAB; text-align: center;">Podstawowe:</h4><hr><br><br>
+                <div id="sudo">
+                    &emsp;<b style="font-size: 20px;">-&emsp;sudo</b>&emsp; Wykonuje zadanie z uprawnieniami roota (odpowiednik administratora w windowsie)
+                    <br><br>
+                        <div class="przyklad">
+                        <b>Przykład:</b> 
+                        <div class="terminal"><h5>&emsp;&emsp;$ sudo apt update</h5></div> 
+                        <h5>Operacja aktualizuje liste reposytoriów i ich pakietów (distro oparte na debianie i pochodnych)</h5>
+                        <br><b>Przykład 2:</b>
+                        <div class="terminal"><h5>&emsp;&emsp;$ sudo bash</h5><h5>&emsp;&emsp;#</h5></div> 
+                        <h5>Uruchamia bash (odpowiednik cmd w linuxie) z uprawnieniami administratora (będziesz zalogowany jako root ($ = zwykły użytkownik # = root))</h5>
+                        </div>
+                </div>
+                <br><br>
+                <div id="man">
+                    &emsp;<b style="font-size: 20px;">-&emsp;man</b>&emsp; Wyświetla manual danej komendy (wymaga interfejs do podręczników systemowych)
+                    <br><br>
+                    <div class="przyklad">
+                        <b>Przykład:</b>
+                        <div class="terminal"><h5>&emsp;&emsp;$ man cat</h5></div>
+                        <h5>Operacja wyświetli podręcznik systemowy dotyczący komendy apt-get</h5>
+                    </div><br><br>   
+                    <div class="przyklad">    
+                    <b>Alternatywa: &emsp;--help</b><br><br>
+                        <b>Przykład:</b>
+                        <div class="terminal"><h5>&emsp;&emsp;$ cat --help</h5>
+                            <h5>
+                                &emsp;&emsp;Składnia: cat [OPCJA]... [PLIK]... <br>
+                                &emsp;&emsp;PLIK lub połączenie PLIKÓW wysyłane na standardowe wyjście. <br><br>
+                                
+                                &emsp;&emsp;Jeżeli nie został podany PLIK albo podany jest jako -, czytane jest <br>
+                                &emsp;&emsp;standardowe wejście. <br><br>
+                                
+                                &emsp;&emsp;&emsp;&emsp;-A, --show-all &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;równoważne -vET <br><br>
+                                &emsp;&emsp;&emsp;&emsp;-b, --number-nonblank &emsp;&emsp;numerowanie niepustych linii na wyjściu, <br><br>
+                                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp;wyłącza -n <br><br>
+                                &emsp;&emsp;&emsp;&emsp;-e&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;równoważne -vE <br><br>
+                                &emsp;&emsp;&emsp;&emsp;-E, --show-ends&emsp;&emsp;&emsp;&emsp;&emsp;wypisanie $ na końcu każdej linii <br><br>
+                                &emsp;&emsp;&emsp;&emsp;-n, --number &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;numerowanie wszystkich linii na wyjściu <br><br>
+                                &emsp;&emsp;&emsp;&emsp;-s, --squeeze-blank &emsp;&emsp;&emsp; nigdy więcej niż jedna pusta linia <br><br>
+                                &emsp;&emsp;&emsp;&emsp;-t&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;równoważne -vT <br><br>
+                                &emsp;&emsp;&emsp;&emsp;-T, --show-tabs&emsp;&emsp;&emsp;&emsp;&emsp; wypisanie znaków tabulacji jako ^I <br><br>
+                                &emsp;&emsp;&emsp;&emsp;-u&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp; &emsp; (ignorowane) <br><br>
+                                &emsp;&emsp;&emsp;&emsp;-v, --show-nonprinting&emsp;&emsp;użycie zapisu ^ i M-, oprócz LFD i TAB <br><br>
+                                &emsp;&emsp;&emsp;&emsp;--help    &emsp;&emsp; &emsp;    display this help and exit <br><br>
+                                &emsp;&emsp;&emsp;&emsp;--version &emsp;&emsp;    output version information and exit <br><br>
+                                 <br><br>
+                                 &emsp;&emsp;Przykłady: <br><br>
+                                 &emsp;&emsp;&emsp; cat f - g  &emsp;&emsp;Skopiowanie zawartości f na standardowe wyjście, potem <br><br>
+                                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp; zawartości g. <br><br>
+                                 &emsp;&emsp;&emsp; cat&emsp;&emsp;&emsp;&emsp;Skopiowanie standardowego wejścia na standardowe wyjście. <br><br>
+                                
+                                 &emsp;&emsp;Pomoc do GNU coreutils w sieci: https://www.gnu.org/software/coreutils/ <br>
+                                 &emsp;&emsp;O błędach tłumaczenia poinformuj przez https://translationproject.org/team/pl.html <br>
+                                 &emsp;&emsp;Pełna dokumentacja: https://www.gnu.org/software/coreutils/cat <br>
+                                 &emsp;&emsp;albo dostępna lokalnie przez: info '(coreutils) cat invocation' <br>
+                                <br>
+                                </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="dzalanianaplikach">
+                <h4 style="color:#707BAB; text-align: center;">Działania na plikach:</h4><hr><br><br>
+                <div id="pwd">
+                    &emsp;<b style="font-size: 20px;">-&emsp;pwd</b>&emsp; Wyświetla ścieżke naszego katalogu w jakim aktualnie się znajdujemy (od 'print working directory')
+                    <br><br>
+                        <div class="przyklad">
+                        <b>Przykład:</b> 
+                        <div class="terminal"><h5>&emsp;&emsp;$ pwd</h5><h5>&emsp;&emsp;/home/user</h5></div> 
+                        </div>
+                </div>
+                <br><br>
+                <div id="cd">
+                    &emsp;<b style="font-size: 20px;">-&emsp;cd</b>&emsp; Komenda umożliwia zmiane katalogu (od 'change directory')
+                    <br><br>
+                    <div class="przyklad">
+                        <b>Przykład:</b> 
+                        <div class="terminal"><h5>&emsp;&emsp;$ cd [ścieżka katalogua albo nazwa katalogu]</h5></div> 
+                        <div class="terminal"><h5>&emsp;&emsp;$ cd UlubioneFilmy</h5></div> 
+                        <div class="terminal"><h5>&emsp;&emsp;$ cd /mnt/USB/Katalog</h5></div> 
+                    </div>
+                </div>
+                <br><br>
+                <div id="ls">
+                    &emsp;<b style="font-size: 20px;">-&emsp;ls</b>&emsp; Wypisanie informacji o PLIKACH (domyślnie w katalogu bieżącym). Sortowane alfabetyczne, jeżeli nie jest podana żadna z opcji (odpowiednik dir)
+                    <br><br>
+                    <b>Przykład</b>
+                    <div class="terminal"><h5>&emsp;&emsp;$ ls</h5><h5 class="blue">&emsp;&emsp; Katalog1 Katalog2 <b class="green">X Program.run</b></h5></div>
+                    <h5>Kolory: niebieski = katalog, zielony = plik wykonywalny (executable) itd. <br> Więcej informacji uzyskarz dzięki --help lub man </h5> 
+                </div>
+                
+            </div>
+
+        </article>
+            <nav class="landscape">
+                <br>
+                <a href="#podstawowe" class="nav">Podstawowe</a> <br><hr><br>
+                <a href="#dzalanianaplikach" class="nav">Działania na plikach</a> <br><hr><br>
+                <a href="#kont" class="nav">Powrót na góre</a> <br> <!--<hr><br>
+                <a href="" class="nav">...</a>  -->
+            </nav>
+            
+            <nav class="mobile">
+              <h5><hr>| <a href="#podstawowe" class="nav">Podstawowe</a> | <a href="#dzalanianaplikach" class="nav">Działania na plikach</a> | <a href="#kont" class="nav">Powrót na góre</a> | <!-- <br>
+                 | <a href="" class="nav">...</a> |<hr></h5>  -->
+            </nav>
+        </div>
+        <br>
+        <footer>
+            <a href="/source.txt" target="_blank" style="color: #707BAB;">Copyleft <LEFT>&#127279;</LEFT> 2022-2023 Pawil: pawi1.github.io<br> Ta strona NIE JEST oficjalną stroną Gnu/Linuxa etc.</a>
+        </footer>
+    </div>  
+
+ 
+</body>
+</html>
